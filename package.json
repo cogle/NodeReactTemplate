@@ -1,18 +1,26 @@
 {
-   "name": "amazon-practice",
-   "version": "1.0.0",
-   "description": "Practice with Amazon Web Services",
-   "main": "index.js",
-   "scripts": {
-      "test": "./node_modules/.bin/webpack --config webpack.config.js",
-      "start": "node ./server/server.js"
-   },
-   "author": "Christopher Ogle",
-   "license": "ISC",
-   "dependencies": {
-      "express": "^4.13.4",
-      "react": "^15.1.0",
-      "react-dom": "^15.1.0",
-      "webpack": "^1.13.1"
-   }
+  "name": "amazon-practice",
+  "version": "1.0.0",
+  "description": "Practice with Amazon Web Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/webpack --config webpack.config.js",
+    "start": "node ./server/server.js"
+  },
+  "author": "Christopher Ogle",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0"
+  }
 }
