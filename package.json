@@ -1,13 +1,13 @@
 {
-  "name": "amazon-practice",
+  "name": "your-project-name-here",
   "version": "1.0.0",
-  "description": "Practice with Amazon Web Services",
+  "description": "Your Description Here",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/webpack --config webpack.config.js",
     "start": "node ./server/server.js"
   },
-  "author": "Christopher Ogle",
+  "author": "Your Name Here",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.4",
